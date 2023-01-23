@@ -1,3 +1,24 @@
-.custom-color{
-    color:goldenrod;
+.custom-chevron-right-arrow{
+    margin-left:15px;
+    transition: 500ms;
+}
+
+header ul :hover .custom-chevron-right-arrow{
+    color: red;
+    transform: rotate(0.5turn);
+}
+
+.custom-btn-primary{
+    background-color: rgba(150, 9, 9, 0.719);
+    color:#fff;
+    transition: 500ms;
+    border:2px solid rgba(150, 9, 9, 0.897);
+    padding: 10px 25px;
+}
+    
+
+.custom-btn-primary:hover{
+    background-color: rgba(150, 9, 9, 0.897);
+    border:2px solid #000;
+    color:#000;
 }
