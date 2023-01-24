@@ -1,41 +1,46 @@
-body{
-    font-family: 'Poppins', sans-serif;
-
+body {
+  font-family: "Poppins", sans-serif;
 }
 
-.custom-fonts_eb{
-    font-family: 'EB Garamond', serif;
-
+.custom-fonts_eb {
+  font-family: "EB Garamond", serif;
 }
 
-.custom-py{
-    padding-top:50px;
-    padding-bottom: 50px;
+.custom-py {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-.custom-chevron-right-arrow{
-    margin-left:15px;
-    transition: 500ms;
+.custom-chevron-right-arrow {
+  margin-left: 15px;
+  transition: 500ms;
 }
 
-header ul :hover .custom-chevron-right-arrow{
-    color: red;
-    transform: rotate(0.5turn);
+.logo{
+    height:60px;
+
+}
+.navbar-brand span{
+    font-weight: 800;
+    font-size: 22px;
+}
+header ul :hover .custom-chevron-right-arrow {
+  color: red;
+  transform: rotate(0.5turn);
 }
 
-.custom-btn-primary{
-    background-color: rgba(150, 9, 9, 0.719);
-    color:#fff;
-    transition: 500ms;
-    border:2px solid rgba(150, 9, 9, 0.897);
-    padding: 10px 25px;
+.custom-btn-primary {
+  background-color: rgba(150, 9, 9, 0.719);
+  color: #fff;
+  transition: 500ms;
+  border: 2px solid rgba(150, 9, 9, 0.897);
+  padding: 10px 25px;
 }
-    
 
-.custom-btn-primary:hover{
-    background-color: rgba(150, 9, 9, 0.897);
-    border:2px solid #000;
-    color:#000;
+.custom-btn-primary:hover {
+  background-color: rgba(150, 9, 9, 0.897);
+  border: 2px solid #000;
+  color: #000;
 }
 
 /* .custom-banner-text-position{
@@ -46,44 +51,44 @@ header ul :hover .custom-chevron-right-arrow{
 }
  */
 
- .custome-banner-image{
-    background-image: url(../images/banner.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
- 
-.banner h1{
-    font-size: 72px;
+.custome-banner-image {
+  background-image: url(../images/banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-.common-title{
-    font-weight:800;
-    font-size:40px;
-    color:#414040;
-}
-.common-caption{
-
+.banner h1 {
+  font-size: 72px;
 }
 
-.practice-box{
-   
+.common-title {
+  font-weight: 800;
+  font-size: 40px;
+  color: #414040;
 }
-.practice-box:hover{
-    background-image: linear-gradient(to top, rgba(243, 243, 243, 0), rgba(0, 0, 0, 0.1));
-}
-
-
-.practice-box h4{
-    font-weight: 800;
-    font-size:30px;
-    color:#414040;
-}
-.practice-box img{}
-.practice-box p{
-
+.common-caption {
 }
 
+.practice-box {
+}
+.practice-box:hover {
+  background-image: linear-gradient(
+    to top,
+    rgba(243, 243, 243, 0),
+    rgba(0, 0, 0, 0.1)
+  );
+}
+
+.practice-box h4 {
+  font-weight: 800;
+  font-size: 30px;
+  color: #414040;
+}
+.practice-box img {
+}
+.practice-box p {
+}
 
 /* Slider */
 
@@ -95,33 +100,56 @@ header ul :hover .custom-chevron-right-arrow{
     mix-blend-mode: darken;
 }  */
 
-
-.ab{
-    transform: translate(-50% -50%)!important;
+.ab {
+  transform: translate(-50% -50%) !important;
 }
 
-.carousel-item{
-    height:50vh
+/* .carousel-item {
+  height: 50vh;
+} */
+
+.accordion-bg {
+  background: #f3f3f3 !important;
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+  padding: 10px !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: none !important;
+  content:"-";
+  font-size: 28px;
+}
+
+.accordion-button::after {
+    content: "+";
+    font-size: 28px;
+    background-image: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #000000;
 }
 
 
 
+/* Footer */
 
-
-
-
+footer .logo{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
 /* Responsive fix */
 
-
-@media (max-width: 576px) { 
-    .banner h1 {
-        font-size: 40px;
-    }
-    .common-title {
-        font-size: 30px;
-    }
-    .practice-box{
-        border:none !important;
-        border-bottom:1px solid rgba(0,0,0,0.25) !important
-    }
+@media (max-width: 576px) {
+  .banner h1 {
+    font-size: 40px;
+  }
+  .common-title {
+    font-size: 30px;
+  }
+  .practice-box {
+    border: none !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25) !important;
+  }
 }
