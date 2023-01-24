@@ -1,7 +1,18 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-
+.text-theme{
+    color: #EB455F;
+}
+.bg-theme{
+    background-color: #EB455F;
+    transition: 500ms;
+    cursor: pointer;
+}
+.bg-theme:hover{
+    background-color: #c4001d;
+    color: white;
+}
 .custom-fonts_eb {
   font-family: "EB Garamond", serif;
 }
@@ -16,40 +27,25 @@ body {
   transition: 500ms;
 }
 
-.logo{
-    height:60px;
-
+.logo {
+  height: 60px;
 }
-.navbar-brand span{
-    font-weight: 800;
-    font-size: 22px;
+.navbar-brand span {
+  font-weight: 800;
+  font-size: 22px;
 }
 header ul :hover .custom-chevron-right-arrow {
-  color: red;
+  color: #EB455F;
   transform: rotate(0.5turn);
 }
 
 .custom-btn-primary {
-  background-color: rgba(150, 9, 9, 0.719);
   color: #fff;
   transition: 500ms;
-  border: 2px solid rgba(150, 9, 9, 0.897);
   padding: 10px 25px;
 }
 
-.custom-btn-primary:hover {
-  background-color: rgba(150, 9, 9, 0.897);
-  border: 2px solid #000;
-  color: #000;
-}
 
-/* .custom-banner-text-position{
-   
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
- */
 
 .custome-banner-image {
   background-image: url(../images/banner.png);
@@ -67,11 +63,7 @@ header ul :hover .custom-chevron-right-arrow {
   font-size: 40px;
   color: #414040;
 }
-.common-caption {
-}
 
-.practice-box {
-}
 .practice-box:hover {
   background-image: linear-gradient(
     to top,
@@ -89,24 +81,22 @@ header ul :hover .custom-chevron-right-arrow {
 }
 .practice-box p {
 }
+.practice-box>a{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+}
+.practice-box>a i{}
+
+
+/* Contact Us */
+.contact-us{}
+.contact-us i{}
 
 /* Slider */
 
-/* .carousel-content{
-    background-image: url(../images/Rectangle-7.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    mix-blend-mode: darken;
-}  */
 
-.ab {
-  transform: translate(-50% -50%) !important;
-}
-
-/* .carousel-item {
-  height: 50vh;
-} */
 
 .accordion-bg {
   background: #f3f3f3 !important;
@@ -117,26 +107,24 @@ header ul :hover .custom-chevron-right-arrow {
 
 .accordion-button:not(.collapsed)::after {
   background-image: none !important;
-  content:"-";
+  content: "-";
   font-size: 28px;
 }
 
 .accordion-button::after {
-    content: "+";
-    font-size: 28px;
-    background-image: none !important;
+  content: "+";
+  font-size: 28px;
+  background-image: none !important;
 }
 
 .accordion-button:not(.collapsed) {
-    color: #000000;
+  color: #000000;
 }
-
-
 
 /* Footer */
 
-footer .logo{
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+footer .logo {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
 }
 /* Responsive fix */
