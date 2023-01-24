@@ -56,3 +56,72 @@ header ul :hover .custom-chevron-right-arrow{
 .banner h1{
     font-size: 72px;
 }
+
+.common-title{
+    font-weight:800;
+    font-size:40px;
+    color:#414040;
+}
+.common-caption{
+
+}
+
+.practice-box{
+   
+}
+.practice-box:hover{
+    background-image: linear-gradient(to top, rgba(243, 243, 243, 0), rgba(0, 0, 0, 0.1));
+}
+
+
+.practice-box h4{
+    font-weight: 800;
+    font-size:30px;
+    color:#414040;
+}
+.practice-box img{}
+.practice-box p{
+
+}
+
+
+/* Slider */
+
+/* .carousel-content{
+    background-image: url(../images/Rectangle-7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    mix-blend-mode: darken;
+}  */
+
+
+.ab{
+    transform: translate(-50% -50%)!important;
+}
+
+.carousel-item{
+    height:50vh
+}
+
+
+
+
+
+
+
+/* Responsive fix */
+
+
+@media (max-width: 576px) { 
+    .banner h1 {
+        font-size: 40px;
+    }
+    .common-title {
+        font-size: 30px;
+    }
+    .practice-box{
+        border:none !important;
+        border-bottom:1px solid rgba(0,0,0,0.25) !important
+    }
+}
