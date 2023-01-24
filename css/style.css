@@ -30,7 +30,6 @@ body {
   margin-left: 15px;
   transition: 500ms;
 }
-
 .logo {
   height: 60px;
 }
@@ -42,22 +41,21 @@ header ul :hover .custom-chevron-right-arrow {
   color: #EB455F;
   transform: rotate(0.5turn);
 }
-
 .custom-btn-primary {
   color: #fff;
   transition: 500ms;
   padding: 10px 25px;
 }
-
-
-
 .custome-banner-image {
-  background-image: url(../images/banner.png);
-  background-repeat: no-repeat;
-  background-position: center;
+  background-image: linear-gradient(
+    to top, rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 1)
+  ),url(../images/banner.jpg);
   background-size: cover;
-}
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
+}
 .banner h1 {
   font-size: 72px;
 }
@@ -68,40 +66,25 @@ header ul :hover .custom-chevron-right-arrow {
   color: #414040;
 }
 
-.practice-box:hover {
+.course-box:hover {
   background-image: linear-gradient(
     to top,
     rgba(243, 243, 243, 0),
     rgba(0, 0, 0, 0.1)
   );
 }
-
-.practice-box h4 {
+.course-box h4 {
   font-weight: 800;
   font-size: 30px;
   color: #414040;
 }
-.practice-box img {
-}
-.practice-box p {
-}
-.practice-box>a{
+.course-box>a{
     display: inline-block;
     height: 30px;
     width: 30px;
     text-align: center;
 }
-.practice-box>a i{}
-
-
-/* Contact Us */
-.contact-us{}
-.contact-us i{}
-
 /* Slider */
-
-
-
 .accordion-bg {
   background: #f3f3f3 !important;
   margin-top: 20px !important;
@@ -140,7 +123,7 @@ footer .logo {
   .common-title {
     font-size: 30px;
   }
-  .practice-box {
+  .course-box {
     border: none !important;
     border-bottom: 1px solid rgba(0, 0, 0, 0.25) !important;
   }
