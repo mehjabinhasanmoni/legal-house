@@ -1,3 +1,18 @@
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.custom-fonts_eb{
+    font-family: 'EB Garamond', serif;
+
+}
+
+.custom-py{
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+
 .custom-chevron-right-arrow{
     margin-left:15px;
     transition: 500ms;
@@ -21,4 +36,23 @@ header ul :hover .custom-chevron-right-arrow{
     background-color: rgba(150, 9, 9, 0.897);
     border:2px solid #000;
     color:#000;
+}
+
+/* .custom-banner-text-position{
+   
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+ */
+
+ .custome-banner-image{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+ 
+.banner h1{
+    font-size: 72px;
 }
