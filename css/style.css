@@ -4,6 +4,10 @@ body {
 .text-theme{
     color: #EB455F;
 }
+.custom-block{
+    display: block !important;
+    width: 100%;
+}
 .bg-theme{
     background-color: #EB455F;
     transition: 500ms;
